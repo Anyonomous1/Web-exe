@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        .nav-bar>li {
+            text-decoration-style: none;
+            list-style-type: none;
+            margin-left: 8px;
+        }
+
+        .nav-bar>li>a {
+            text-decoration: none;
+            text-decoration-style: none;
+            color: #f1f1f1;
+        }
+
+        .div-1 {
+            display: flex;
+            justify-content: end;
+        }
+
+        .nav-bar {
+            display: flex;
+        }
+        #submit{
+            background-color:grey;
+            border:none;
+            margin-left:10px;
+        }
+    </style>
+</head>
+
+<body style="background-color: dodgerblue;">
+    <div class="div-1">
+        <nav class="nav-bar">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="Signup.html">Signup</a></li>
+
+        </nav>
+    </div>
+    <h1>Login</h1>
+    <form action="http://127.0.0.1:5500/Navbar%20using%20anchor%20tag/Home.html">
+        <hr>
+        <br>
+        <label for="Email">Email</label>
+        <br>
+        <input id="Email" type="email" spaceholder="Enter your email">
+        <br>
+        <label for="password">Password</label>
+        <br>
+        <input id="password" type="password" spaceholder="Enter your password">
+        <br>
+        <br>
+        <input id="submit" type="submit" value="submit">
+        <hr>
+       
+    </form>
+
+</body>
+
+</html>
